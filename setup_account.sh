@@ -21,7 +21,7 @@ DESTINATION=/home/data/apollo_data
 GENUS=e
 SPECIES=coli
 
-ATTENDEE=test.txt
+ATTENDEE=example.txt
 
 while read -r LINE
 do
