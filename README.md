@@ -25,6 +25,11 @@ arrow int
 Please entry your Apollo's URL: https://example.domain/apollo
 Please entry your Apollo Username: 
 Please entry your Apollo Password:
+
+if connection established successfully:
+Testing connection...
+Ok! Everything looks good.
+Ready to go! Type `arrow` to get a list of commands you can execute.
 ```
 
 ## Step to set up the user account
