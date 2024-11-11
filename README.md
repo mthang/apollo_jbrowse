@@ -41,3 +41,13 @@ Step 3 ) paste -d'\t' file_containing_attendees.txt  passwords.txt > attendees.l
 Step 4 ) bash setup_account.sh 
 Note: check if 2bit and organism data folder exists in sourcedata
 ```
+
+## Troubleshoot
+Remove the organism folder named "a_username" and rerun the setup_account.sh again if error message occurs.
+```
+creating user account for a_username
+{
+    "error": "Failed to add the user Hibernate operation: could not execute statement; SQL [n/a]; ERROR: duplicate key value violates unique constraint \"grails_user_pkey\"\n  Detail: Key (id)=(34) already exists.; nested exception is org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint \"grails_user_pkey\"\n  Detail: Key (id)=(34) already exists."
+}
+
+```
