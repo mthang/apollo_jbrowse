@@ -23,6 +23,13 @@ SPECIES=coli
 
 ATTENDEE=example.txt
 
+########################
+#
+# before running this script
+# make sure to run - arrow init to create a connection to your apollo instance 
+#
+#########################
+
 while read -r LINE
 do
  
